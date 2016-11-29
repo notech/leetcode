@@ -27,16 +27,11 @@
 
 class Solution(object):
     def reverse(self, x):
-        """
-        :type x: int
-        :rtype: int
-        """
-        l = list(str(abs(x)))
-        l.reverse()
-        rst = int(''.join(l))
-        if rst > 2147483647:
+        sign = 1 if x >= 0 else -1
+        tx = str(abs(x))
+        ret = sign * int(tx[::-1])
+        
+        if ret > 2147483647 or ret < -2147483647:
             return 0
-        else:
-            return rst if x>=0 else rst * (-1)
+        return ret
 
-            

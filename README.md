@@ -1,9 +1,9 @@
 # :pencil2: Leetcode Solutions with python
-Update time:  2016-11-29 11:32:32
+Update time:  2016-11-29 13:15:22
 
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode) [Usage](https://github.com/bonfy/leetcode/blob/master/README_leetcode_generate.md)
 
-I have solved **1   /   429** problems
+I have solved **5   /   429** problems
 while there are **78** problems still locked.
 
 If you have any question, please give me an [issue](https://github.com/notech/leetcode.git/issues).
@@ -14,15 +14,15 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 
 | # | Title | Source Code | Article | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|
-|1|[two-sum](https://leetcode.com/problems/two-sum)||[:memo:](https://leetcode.com/articles/two-sum/)|Easy|
+|1|[two-sum](https://leetcode.com/problems/two-sum)|[python](https://github.com/notech/leetcode.git/blob/master/001-two-sum/two-sum.py)|[:memo:](https://leetcode.com/articles/two-sum/)|Easy|
 |2|[add-two-numbers](https://leetcode.com/problems/add-two-numbers)||[:memo:](https://leetcode.com/articles/add-two-numbers/)|Medium|
 |3|[longest-substring-without-repeating-characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)||[:memo:](https://leetcode.com/articles/longest-substring-without-repeating-characters/)|Medium|
 |4|[median-of-two-sorted-arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|||Hard|
 |5|[longest-palindromic-substring](https://leetcode.com/problems/longest-palindromic-substring)||[:memo:](https://leetcode.com/articles/longest-palindromic-substring/)|Medium|
 |6|[zigzag-conversion](https://leetcode.com/problems/zigzag-conversion)|||Easy|
-|7|[reverse-integer](https://leetcode.com/problems/reverse-integer)|||Easy|
-|8|[string-to-integer-atoi](https://leetcode.com/problems/string-to-integer-atoi)|||Easy|
-|9|[palindrome-number](https://leetcode.com/problems/palindrome-number)|||Easy|
+|7|[reverse-integer](https://leetcode.com/problems/reverse-integer)|[python](https://github.com/notech/leetcode.git/blob/master/007-reverse-integer/reverse-integer.py)||Easy|
+|8|[string-to-integer-atoi](https://leetcode.com/problems/string-to-integer-atoi)|[python](https://github.com/notech/leetcode.git/blob/master/008-string-to-integer-atoi/string-to-integer-atoi.py)||Easy|
+|9|[palindrome-number](https://leetcode.com/problems/palindrome-number)|[python](https://github.com/notech/leetcode.git/blob/master/009-palindrome-number/palindrome-number.py)||Easy|
 |10|[regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)|||Hard|
 |11|[container-with-most-water](https://leetcode.com/problems/container-with-most-water)||[:memo:](https://leetcode.com/articles/container-most-water/)|Medium|
 |12|[integer-to-roman](https://leetcode.com/problems/integer-to-roman)|||Medium|

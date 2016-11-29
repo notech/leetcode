@@ -24,15 +24,10 @@ class Solution(object):
         """
         if x < 0:
             return False
-        x = abs(x)
-        l = len(str(x))
-        i = 1
-        while i < l / 2 + 1:
 
-            head = (x / 10 ** (l-i)) % 10
-            tail = (x % 10 ** i) if i == 1 else (x % 10 ** i) / (10 ** (i-1))
-            if head != tail:
-                return False
-            i = i + 1
-
-        return True
+        tmp = x
+        y = 0
+        while tmp:
+            y = y*10 + tmp%10
+            tmp = tmp/10
+        return y == x
